@@ -22,6 +22,7 @@ module DataMapper
       property :published_at, DateTime
 
       property :slug, Slug
+      property :version, Version
 
       #
       # Hooks

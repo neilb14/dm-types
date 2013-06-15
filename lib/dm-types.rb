@@ -19,5 +19,6 @@ module DataMapper
     autoload :URI,                'dm-types/uri'
     autoload :Yaml,               'dm-types/yaml'
     autoload :APIKey,             'dm-types/api_key'
+    autoload :Version,            'dm-types/resource_version'
   end
 end

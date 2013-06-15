@@ -23,6 +23,8 @@ module DataMapper
 
       property :slug, Slug
 
+      property :version, Version
+
       #
       # Hooks
       #
